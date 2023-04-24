@@ -53,6 +53,8 @@ resources:
 - ../common/kubeflow-roles/base
 # Kubeflow Istio Resources
 - ../common/istio-1-16/kubeflow-istio-resources/base
+# Kubeflow emissary mappings
+- ../common/emissary-mapping
 
 
 # Kubeflow Pipelines
