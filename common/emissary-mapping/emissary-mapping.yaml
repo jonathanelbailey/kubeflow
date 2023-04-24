@@ -6,7 +6,7 @@ metadata:
 spec:
   host: kubeflow.internal.magiccityit.com
   prefix: /
-  service: istio-ingressgateway:80
+  service: istio-ingressgateway.istio-system:80
 ---
 apiVersion: getambassador.io/v3alpha1
 kind: Host
