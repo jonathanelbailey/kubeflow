@@ -15,12 +15,8 @@ data:
         sampling: 100
         max_path_tag_length: 99999
         zipkin:
-          address: otel-collector.otel.svc:9411
+          address: jaeger-tracing-collector.monitoring.svc:9411
     enablePrometheusMerge: true
-    extensionProviders:
-    - envoyOtelAls:
-        port: 4317
-        service: otel-collector.otel.svc
     rootNamespace: istio-system
     tcpKeepalive:
       interval: 5s
