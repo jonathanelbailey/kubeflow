@@ -1,8 +1,0 @@
-apiVersion: telemetry.istio.io/v1alpha1
-kind: Telemetry
-metadata:
-  name: als-otel-logging
-spec:
-  accessLogging:
-    - providers:
-      - name: otel
