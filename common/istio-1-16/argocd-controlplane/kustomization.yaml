@@ -1,5 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-- ../common/istio-1-16/istio-namespace/base
-- ../common/istio-1-16/istio-install/base
+- ../istio-namespace/base
+- ../istio-install/base
