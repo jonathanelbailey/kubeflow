@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
 # Istio
-- ../common/istio-1-16/istio-crds/base
+- ../istio-crds/base
