@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
 # Dex
-- ../common/dex/overlays/istio
+- ../overlays/istio
