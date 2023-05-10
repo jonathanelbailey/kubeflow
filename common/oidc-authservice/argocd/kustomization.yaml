@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
 
 # OIDC Authservice
-- ../oidc-authservice/base
+- ../base
